@@ -1,0 +1,5 @@
+botbuilder-core==4.15.0
+botbuilder-schema==4.15.0
+aiohttp>=3.9,<4
+fastapi>=0.110,<1
+uvicorn>=0.29,<1
