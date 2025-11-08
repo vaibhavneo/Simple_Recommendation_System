@@ -8,13 +8,11 @@ A small but powerful **recommendation-system chatbot** you can run locally. It:
 - Renders results as a **Hero Card carousel** in the Bot Framework Emulator
 - Can call a **local FastAPI** service for real recommendations (with a local fallback if the API is down)
 - Ships with a simple **hybrid recommender** you can tweak (content TF-IDF + item co-occurrence + optional MMR diversity)
-
 ---
 
 ## 🗂️ Repository Structure
 
 ```
-
 .
 ├─ bot_app.py           # Bot Framework (aiohttp) app: routes + message handling + Hero cards
 ├─ serve.py             # FastAPI service exposing /recommend (uses recommender.py)
